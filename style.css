@@ -1,13 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-.mode-chanc{
+
+.mode-chanc {
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.mode {
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.mode:hover {
+    background-color: darkgreen;
+    border: 5px solid red;
+    box-shadow: 100px black;
+
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+.light-mode {
+    background-color: white;
+
 }
